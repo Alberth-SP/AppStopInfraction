@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">AppStopInfraction</string>
+
+
+
+
+
+    <string name="fields_required">All Fields Required!</string>
+
+    <string name="register_successfully">Register Successfully!</string>
+    <string name="register_failed">Something wrong happened!</string>
+
+    <string name="update_successfully">Update data successfully!</string>
+    <string name="update_failed">Updating data failed!</string>
+
+
+
+
+
+    <string name="delete_successful">Remove Account Successfully</string>
+    <string name="delete_failed">Something wrong happened!</string>
+
+
+    <string-array name="papeleta1">
+        <item> M01 </item>
+        <item> Conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobado con el exámen respectivo o por negarse al mismo y que haya participado en un accidente de tránsito. </item>
+        <item> 4,050.00 </item>
+    </string-array>
+
+    <string-array name="papeleta2">
+        <item> M02 </item>
+        <item> Conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el exámen respectivo o por negarse al mismo. </item>
+        <item> 2,075.00  </item>
+    </string-array>
+
+    <string-array name="papeleta3">
+        <item> M03 </item>
+        <item> Conducir un vehículo automotor sin tener licencia de conducir o permiso provisional. </item>
+        <item> 2,075.00  </item>
+    </string-array>
+
+    <string-array name="papeleta4" >
+
+        <item> M04 </item>
+        <item> Conducir vehículos estando la licencia de conducir retenida, suspendida o estando inhabilitado para obtener licencia de conducir. </item>
+        <item> 4,150.00  </item>
+    </string-array>
+
+    <string-array name="papeleta5">
+        <item> M05 </item>
+        <item> Conducir un vehículo con Licencia de Conducir cuya clase o categoría no corresponde al vehículo que conduce. </item>
+        <item> 2,075.00 </item>
+    </string-array>
+
+
+    <string-array name="papeleta6">
+        <item> M06 </item>
+        <item> Estacionar en las curvas, puentes, túneles, zonas estrechas de la vía, pasos a nivel, pasos a desnivel en cambios de rasante, pendientes y cruces de ferrocarril. </item>
+        <item> 996.00    </item>
+    </string-array>
+
+    <string-array name="papeleta7">
+        <item> M07 </item>
+        <item> Participar en competencias de velocidad en eventos no autorizados. </item>
+        <item> 996.00  </item>
+    </string-array>
+
+    <string-array name="papeleta8">
+        <item> M08 </item>
+        <item> Permitir a un menor de edad la conducción de un vehículo automotor, sin autorización o permiso provisional. </item>
+        <item> 996.00  </item>
+    </string-array>
+
+    <string-array name="papeleta9" >
+
+        <item> M09 </item>
+        <item> Conducir un vehículo con cualquiera de sus sistemas de dirección, frenos, suspensión, luces o eléctrico en mal estado, previa inspección técnica vehicular. </item>
+        <item> 996.00  </item>
+    </string-array>
+
+    <string-array name="papeleta10">
+        <item> M10 </item>
+        <item> Abastecer de combustible un vehículo del servicio de transporte público de pasajeros con personas a bordo del vehículo. </item>
+        <item> 498.00 </item>
+    </string-array>
+
+
+
+
+    <string-array name="papeleta11">
+        <item> G01 </item>
+        <item> Adelantar o sobrepasar en forma indebida a otro vehículo. </item>
+        <item> 332.00 </item>
+    </string-array>
+
+    <string-array name="papeleta12">
+        <item> G02 </item>
+        <item> No hacer señales, ni tomar las precauciones para girar, voltear en U, pasar de un carril de la calzada a otro o detener el vehículo. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta13">
+        <item> G03 </item>
+        <item> Detener el vehículo bruscamente sin motivo. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta14" >
+
+        <item> G04 </item>
+        <item> No detenerse antes de la línea de parada o antes de las áreas de intersección de calzadas o no respetar el derecho de paso del peatón. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta15">
+        <item> G05 </item>
+        <item>  No mantener una distancia suficiente, razonable y prudente, de acuerdo al tipo de vehículo y la vía por la que se conduce, mientras se desplaza o al detenerse detrás de otro. </item>
+        <item> 332.00 </item>
+    </string-array>
+
+
+    <string-array name="papeleta16">
+        <item> G06 </item>
+        <item> No ubicar el vehículo con la debida anticipación en el carril donde va efectuar el giro o volteo. </item>
+        <item> 332.00    </item>
+    </string-array>
+
+    <string-array name="papeleta17">
+        <item> G07 </item>
+        <item> No conducir por el carril de extremo derecho de la calzada un vehículo del servicio de transporte público de pasajeros o de carga o de desplazamiento lento o un vehículo automotor menor. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta18">
+        <item> G08 </item>
+        <item> No utilizar el carril derecho para recoger o dejar pasajeros o carga. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta19" >
+
+        <item> G09 </item>
+        <item> Retroceder, salvo casos indispensables para mantener libre la circulación, para incorporarse a ella o para estacionar el vehículo. </item>
+        <item> 332.00  </item>
+    </string-array>
+
+    <string-array name="papeleta20">
+        <item> G10 </item>
+        <item>  Incumplir las disposiciones sobre el uso de las vías de tránsito rápido y/o de acceso restringido. </item>
+        <item> 332.00 </item>
+    </string-array>
+
+
+    <string-array name="papeleta21">
+        <item> L01 </item>
+        <item> Dejar mal estacionado el vehículo en lugares permitidos. </item>
+        <item> 166.00 </item>
+    </string-array>
+
+    <string-array name="papeleta22">
+        <item> L02 </item>
+        <item> Estacionar un vehículo en zonas de parqueo destinadas a vehículos que transportan a personas con discapacidad o conducidos por éstos. </item>
+        <item> 207.50  </item>
+    </string-array>
+
+    <string-array name="papeleta23">
+        <item> L03 </item>
+        <item> Estacionar un vehículo en zonas de parqueo destinadas a vehículos que transportan a personas con discapacidad o conducidos por éstos. </item>
+        <item> 207.50  </item>
+    </string-array>
+
+    <string-array name="papeleta24" >
+
+        <item> L04 </item>
+        <item> Abrir o dejar abierta la puerta de un vehículo estacionado, dificultando la circulación vehicular. </item>
+        <item> 166.00 </item>
+    </string-array>
+
+    <string-array name="papeleta25">
+        <item> L05 </item>
+        <item>  Utilizar el carril de giro a la izquierda para continuar la marcha en cualquier dirección que no sea la específicamente señalada. </item>
+        <item> 166.00 </item>
+    </string-array>
+
+
+    <string-array name="papeleta26">
+        <item> L06 </item>
+        <item> Arrojar, depositar o abandonar objetos o sustancias en la vía pública que dificulten la circulación. </item>
+        <item> 166.00 </item>
+    </string-array>
+
+    <string-array name="papeleta27">
+        <item> L07 </item>
+        <item> Utilizar la bocina para llamar la atención en forma inncesaria </item>
+        <item> 166.00 </item>
+    </string-array>
+
+    <string-array name="papeleta28">
+        <item> L08 </item>
+        <item> Hacer uso de bocinas de descarga de aire comprimido en el ámbito urbano. </item>
+        <item> 166.00 </item>
+    </string-array>
+
+
+
+
+</resources>

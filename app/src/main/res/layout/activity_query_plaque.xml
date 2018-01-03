@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context="com.example.alberth.appstopinfraction.presenter.queryPlaque.QueryPlaqueActivity">
+
+    <TextView
+        android:id="@+id/android_textview_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:gravity="center"
+        android:text="Panel de Consulta"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/placaVehicular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese  Matricula"
+        android:background="@drawable/border_text"
+        android:layout_marginTop="16dp" />
+
+    <Button
+
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/border_botton"
+        android:fontFamily="casual"
+        android:padding="16dp"
+        android:text="Consultar"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="16dp"
+
+        android:gravity="center"
+        android:text="Resultado de la consulta"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+        android:textColor="#000"
+        android:textSize="16sp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btn_back3"
+
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/border_botton"
+        android:fontFamily="casual"
+        android:padding="16dp"
+        android:text="Regresar"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

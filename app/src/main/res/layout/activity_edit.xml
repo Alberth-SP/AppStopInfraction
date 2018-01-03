@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context="com.example.alberth.appstopinfraction.presenter.editInfraction.EditActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Editar Papeleta"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_weight="0.86">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edit_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+                android:hint="Ingrese Nombres"
+                />
+
+            <EditText
+                android:id="@+id/edit_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+                android:hint="Ingrese Apellidos"
+                />
+
+
+            <EditText
+                android:id="@+id/edit_name_infraction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+                android:hint="Ingrese tipo de Infraccion"
+
+                />
+
+            <EditText
+                android:id="@+id/edit_matricula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+
+                android:hint="Ingrese Placa Vehicular"
+                />
+
+            <EditText
+                android:id="@+id/edit_type_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+
+                android:hint="Ingrese tipo de Vehiculo"
+
+                />
+
+            <EditText
+                android:id="@+id/edit_color_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+
+                android:hint="Ingrese Color de Vehiculo"
+                />
+
+            <EditText
+                android:id="@+id/edit_monto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+
+                android:hint="Ingrese Monto"
+                />
+
+            <EditText
+                android:id="@+id/edit_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:layout_marginTop="6dp"
+
+                android:hint="Ingrese Lugar"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancelEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/border_botton"
+
+            android:text="Cancelar"
+            android:layout_weight="1"
+
+            android:layout_margin="6dp"
+            />
+
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_botton"
+
+            android:text="Cambiar"
+            android:layout_margin="6dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
